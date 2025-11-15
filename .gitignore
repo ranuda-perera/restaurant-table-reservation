@@ -1,0 +1,25 @@
+# ------------------------------------
+# 1. BUILD ARTIFACTS (ALWAYS IGNORE)
+# ------------------------------------
+# Maven target directory (compiled classes, WAR/JAR files)
+target/
+
+# ------------------------------------
+# 2. IDE-SPECIFIC FILES (IntelliJ IDEA)
+# ------------------------------------
+# IntelliJ IDEA settings directory
+.idea/
+
+# IntelliJ module files
+*.iml
+
+# ------------------------------------
+# 3. RUNTIME/SERVER-SPECIFIC FILES
+# ------------------------------------
+# SmartTomcat/Tomcat specific working directory
+# (This folder contains configuration specific to your local SmartTomcat setup)
+.smarttomcat/
+
+# Log files created during runtime
+*.log
+
